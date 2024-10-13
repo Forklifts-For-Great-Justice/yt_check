@@ -4,6 +4,6 @@ WORKDIR	/usr/src/app
 COPY	requirements.txt	./
 RUN	pip install --no-cache-dir -r requirements.txt
 COPY	.	.
-ENV	WEBHOOK_URL
-ENV	DEVELOPER_KEY
+ENV	WEBHOOK_URL	""
+ENV	DEVELOPER_KEY	""
 CMD	["python","src/main.py"]
