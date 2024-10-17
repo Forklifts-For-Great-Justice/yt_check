@@ -60,7 +60,7 @@ def get_latest_videos(channel_id: constants.Channels, developer_key: str) -> Lis
 
     response = request.execute()
 
-    videos = parse_videos(response["items"], 50 * 24)
+    videos = parse_videos(response["items"], 24)
 
     if not videos:
         raise NoVideosError("No videos for channel: {}".format(channel_id))
