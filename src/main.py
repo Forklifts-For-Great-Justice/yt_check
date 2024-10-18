@@ -3,7 +3,6 @@ import asyncio
 import aiohttp
 import discord
 import os
-import sys
 import logging
 
 from yt_check import util
@@ -32,7 +31,6 @@ async def main():
 
     except util.NoVideosAtAllError as e:
         logging.error(e)
-        sys.exit(1)
 
 
 if __name__ == "__main__":
