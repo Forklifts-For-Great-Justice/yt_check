@@ -17,6 +17,10 @@ jobs:
   build-and-test:
     # Specify the execution environment. You can specify an image from Docker Hub or use one of our convenience images from CircleCI's Developer Hub.
     # See: https://circleci.com/docs/executor-intro/ & https://circleci.com/docs/configuration-reference/#executor-job
+    filters:
+      branches:
+        only:
+          testing
     docker:
       # Specify the version you desire here
       # See:https://circleci.com/developer/images/image/cimg/python
