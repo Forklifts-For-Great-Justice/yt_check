@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Do PyLint
-      - uses: Silleellie/pylint-github-action@v2
+        uses: Silleellie/pylint-github-action@v2
         with:
 
           # Path of the package(s) or python file(s) to lint, relative to the repository root.
