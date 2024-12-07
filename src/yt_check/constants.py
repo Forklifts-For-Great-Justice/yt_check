@@ -10,6 +10,8 @@ class Channels(StrEnum):
     SKELETOR = "UCOYYn-7CTVA1jFtmYOLr8Qw"
     BABYMETAL = "UC33_tIj4m1_XaqfFcomShvw"
     SABATON = "UCjQhd1APsd5NQhiVZV7GYzg"
+    NEKROGOBLIKON = "UCIlCG-eRqxjgtbbp9AzeNeg"
+    BLODDYWOOD = "UChDkP71cJOHop-iRgl_8pVg"
 
 
 class Notifications(StrEnum):
