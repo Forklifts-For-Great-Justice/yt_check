@@ -12,6 +12,7 @@ class Channels(StrEnum):
     SABATON = "UCjQhd1APsd5NQhiVZV7GYzg"
     NEKROGOBLIKON = "UCIlCG-eRqxjgtbbp9AzeNeg"
     BLODDYWOOD = "UChDkP71cJOHop-iRgl_8pVg"
+    NAPLAM_RECORDS = "UCG7AaCh_CiG6pq_rRDNw72A"
 
 
 class Notifications(StrEnum):
