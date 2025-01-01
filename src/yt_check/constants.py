@@ -13,6 +13,8 @@ class Channels(StrEnum):
     NEKROGOBLIKON = "UCIlCG-eRqxjgtbbp9AzeNeg"
     BLODDYWOOD = "UChDkP71cJOHop-iRgl_8pVg"
     NAPLAM_RECORDS = "UCG7AaCh_CiG6pq_rRDNw72A"
+    SORA_THE_TROLL = "UCMj4YareOFuEfxUBbncWF9w"
+    FORKLIFT_JOE = "UC-sOORmpV5BH3HUqZ3I9Cxg"
 
 
 class Notifications(StrEnum):
