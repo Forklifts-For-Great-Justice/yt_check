@@ -20,6 +20,9 @@ class NoVideosAtAllError(Exception):
 def parse_videos(video_list: Iterable, max_video_age: int = 24) -> List[str]:
     videos = []
     for video in video_list:
+        video_id = video["id"].get("videoId", None)
+        if video_id is None:
+            continue
         current = {
             "url": f"https://youtube.com/watch?v={video['id']['videoId']}",
             "title": video["snippet"]["title"],
