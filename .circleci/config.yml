@@ -45,5 +45,4 @@ workflows:
       - build-and-test:
         filters:
           branches:
-            only:
-              testing
+            only: testing
